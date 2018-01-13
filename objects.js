@@ -8,7 +8,7 @@ function updatePlaylist(myPlaylist, artistName, songName) {
 }
 
 function removeFromPlaylist(myPlaylist, artistName) {
-  
+  delete myPlaylist.artistName;
 }
 
 var newPlaylist = updatePlaylist(playlist, "Guns N'' Roses", "November Rain");
