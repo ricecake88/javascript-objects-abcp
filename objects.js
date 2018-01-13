@@ -4,6 +4,7 @@ var playlist = {'Sarah Mclachlan':'I Will Remember You',
 }
 
 function updatePlaylist(myPlaylist, artistName, songName) {
-  var newPlaylist = 
-  return
+  return Object.assignt({}, myPlaylist, {artistName: sogName});
 }
+
+updatePlaylist(playlist, "Guns N' Roses", "November Rain");
