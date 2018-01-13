@@ -8,3 +8,4 @@ function updatePlaylist(myPlaylist, artistName, songName) {
 }
 
 updatePlaylist(playlist, "Guns N' Roses", "November Rain");
+console.log(playlist);
