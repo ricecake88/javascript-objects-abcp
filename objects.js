@@ -7,5 +7,5 @@ function updatePlaylist(myPlaylist, artistName, songName) {
   return Object.assign({}, myPlaylist, {artistName: songName});
 }
 
-updatePlaylist(playlist, "Guns N' Roses", "November Rain");
-console.log(playlist);
+var newPlaylist = updatePlaylist(playlist, "Guns N' Roses", "November Rain");
+console.log(newPlaylist);
