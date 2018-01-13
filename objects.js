@@ -8,7 +8,7 @@ function updatePlaylist(myPlaylist, artistName, songName) {
 
 function removeFromPlaylist(myPlaylist, artistName) {
   console.log(myPlaylist.artistName);
-  console.log(myPlaylist.Slowdive);
+  console.log(myPlaylist.SarahMcLachlan);
   delete myPlaylist.artistName;
   return myPlaylist;
 }
