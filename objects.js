@@ -1,6 +1,6 @@
-var playlist = {'Sarah Mclachlan':'I Will Remember You',
-'Madonna':'Vogue',
-'Michael Jackson':'Thriller'
+var playlist = {Sarah Mclachlan:'I Will Remember You',
+Madonna:'Vogue',
+Michael Jackson:'Thriller'
 }
 
 function updatePlaylist(myPlaylist, artistName, songName) {
